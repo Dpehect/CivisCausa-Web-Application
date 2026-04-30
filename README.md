@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Civis Causa | Next-Gen Human Rights Archive
 
-## Getting Started
+[**https://civiscausa.org**](https://civiscausa.org)
 
-First, run the development server:
+Civis Causa, dünya genelindeki insan hakları ihlallerini veri odaklı bir yaklaşımla belgeleyen, yüksek performanslı ve editoryal bir dijital arşiv portalıdır. On binlerce vaka dosyasını milisaniye hızında işleyebilen bu platform, "Büyük Veri" (Big Data) analitiğini modern web estetiğiyle birleştirir.
+
+## 🎯 Amaç
+
+Platformun temel amacı; insan hakları ihlallerini, tanıklıkları ve hukuki süreçleri sistematik bir şekilde dijital ortama aktararak kalıcı ve erişilebilir bir hafıza oluşturmaktır.
+- **Şeffaflık:** Veriye dayalı analizlerle hak ihlallerini görünür kılmak.
+- **Hız ve Erişilebilirlik:** Devasa veri setlerini (50,000+ vaka) herhangi bir donma veya gecikme (0ms latency) olmadan kullanıcıya sunmak.
+- **Editoryal Estetik:** Bilgiyi, kullanıcıyı yormayan ancak vakanın ağırlığını hissettiren derin ve karanlık (deep-dark) bir editoryal tasarımla sunmak.
+
+## 🚀 Teknolojiler
+
+Proje, modern web ekosisteminin en performanslı araçları üzerine inşa edilmiştir:
+
+- **Çekirdek:** [Next.js 15+](https://nextjs.org/) (App Router) & [React 19](https://react.dev/)
+- **Dil:** [TypeScript](https://www.typescriptlang.org/)
+- **Performans Katmanı:** 
+  - **Virtual Scrolling:** On binlerce satırı tarayıcıyı yormadan render eden sanal kaydırma mekanizması.
+  - **Web Workers:** Arama ve filtreleme gibi ağır işlemleri ana thread'den ayıran arkaplan işleme.
+  - **Canvas API:** Veri görselleştirmeleri için GPU hızlandırmalı grafikler.
+- **State Management:** [Zustand](https://zustand-demo.pmnd.rs/) (Hafif ve hızlı durum yönetimi)
+- **Styling:** [Vanilla Extract](https://vanilla-extract.style/) (Sıfır çalışma zamanı CSS) & [Styled Components](https://styled-components.com/)
+- **Animasyon:** [Framer Motion](https://www.framer.com/motion/) (60 FPS pürüzsüz geçişler)
+- **Veri Görselleştirme:** [D3.js](https://d3js.org/)
+- **İkonografi:** [Lucide React](https://lucide.dev/)
+
+## 🛠️ Kurulum
+
+Geliştirme ortamını ayağa kaldırmak için:
 
 ```bash
+# Bağımlılıkları yükleyin
+npm install
+
+# Geliştirme sunucusunu başlatın
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ardından [http://localhost:3000](http://localhost:3000) adresinden projeye erişebilirsiniz.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Bu proje insan hakları mücadelesine veri ve teknoloji ile katkı sağlamak amacıyla geliştirilmiştir.*
