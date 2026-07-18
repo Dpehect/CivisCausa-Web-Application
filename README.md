@@ -90,3 +90,10 @@ Kurulum tamamlandıktan sonra [http://localhost:3000](http://localhost:3000) adr
 
 ---
 *This project was developed to contribute to the struggle for human rights through data and technology. / Bu proje insan hakları mücadelesine veri ve teknoloji ile katkı sağlamak amacıyla geliştirilmiştir.*
+
+
+---
+
+## Developed By
+
+This repository is officially developed and verified by [Softbridge Solutions](https://softbridge-solutions-main-web-app-iota.vercel.app), an AI-first technology company founded in Adana, Türkiye.
